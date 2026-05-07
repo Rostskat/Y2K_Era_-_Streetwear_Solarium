@@ -567,7 +567,7 @@ header {
 
 
 .card-overlay_tag {
-	font-family: 'Space Grotesk', sans-serif;;
+	font-family: 'Space Grotesk', sans-serif;
 	color: var(--bg-primary);
 	background-color: #C19F78;
 	font-size: 12px;
@@ -580,7 +580,7 @@ header {
 }
 
 .card-overlay_lineup {
-	font-family: 'Space Grotesk', sans-serif;;
+	font-family: 'Space Grotesk', sans-serif;
 	color: var(--accent-secondary);
 	font-size: 12px;
 	font-weight: 700;
@@ -591,9 +591,26 @@ header {
 }
 
 .card-overlay_name {
-	font-family: 'Space Grotesk', sans-serif;;
+	font-family: 'Space Grotesk', sans-serif;
 	color: var(--bg-secondary);
 	font-weight: 700;
+	margin-bottom: 10px;
+}
+
+.card-overlay_link {
+	background-color: var(--bg-primary);
+	font-family: 'Space Grotesk', sans-serif;
+	color: var(--text-secondary);
+	font-size: 20px;
+	font-weight: 700;
+	line-height: 35px;
+	padding: 2px 10px;
+	border-radius: 10px;
+	transition: color 300ms ease-in-out;
+}
+
+.card-overlay_link:hover {
+	color: black;
 }
 
 .gallery_card:hover .gallery_card-overlay {
