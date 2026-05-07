@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Проект_Solarium</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <section class="header-section section">
+            <div class="container header-container">
+               <span class="logo header_logo">Solarium</span>
+               <nav class="navigation_list">
+                <ul class="navigation_list_ul">
+                    <li class="navigation_list_li">
+                        <a href="#hero" class="navigation_link">Trends</a>
+                    </li>
+                    <li class="navigation_list_li">
+                        <a href="#about" class="navigation_link">Archives</a>
+                    </li>
+                    <li class="navigation_list_li">
+                        <a href="#gallery" class="navigation_link">Drops</a>
+                    </li>
+                    <li class="navigation_list_li">
+                        <a href="#community" class="navigation_link">Community</a>
+                    </li>
+                </ul>
+               </nav>
+               <button class="header_btn">Join the club</button>
+            </div>
+        </section>
+    </header>
+    <main class="main">
+        <section id="hero" class="hero-section section">
+            <div class="container hero_container">
+             <div class="hero_article">
+                <span class="hero_tag">The Y2K Renaissance</span>
+                <h1 class="hero_title">Y2K Era & <span>Streetwear</span></h1>
+                <p class="hero_description">Your Style — Your Rules. Curating the sun-
+                    drenched aesthetics of the millennium for the
+                    modern concrete jungle.</p>
+                    <div class="hero_article-btn-wrapper">
+                        <button class="hero_article-btn-primary">Explore Archive <img src="./Assets/Icons/Arrow.png" alt="Arrow" width="16" height="16"></button>
+                        <button class="hero_article-btn-secondary" id="openModalBtn">View Drops</button>
+                    </div>
+             </div>
+             <div class="hero_img-wrapper">
+                <img src="./Assets/Images/Streetwear_photography_hero.png" alt="Streetwear">
+                <img src="./Assets/Images/Sneakers_hero.png" alt="Sneakers">
+             </div>   
+            </div>  
+        </section>
+        <section id="about" class="about-section section">
+            <div class="container about-container">
+                <div class="about_text">
+                    <h2 class="about_title">What is Y2K and why is it a hit again?</h2>
+                    <p class="about_description">Fashion is cyclical, and today Gen Z is setting the new rules. We mix vintage vibes with modern aesthetics. The main rule of modern streetwear is 
+                        <span class="about_description_special_№1">absolute freedom of</span> <span class="about_description_special_№2">self-expression.</span></p>
+                <div class="about_quote-wrapper">
+                    <p class="about_quote">"Clothing is the easiest way to tell a story
+                        about yourself without saying a single word."</p>
+                </div>
+                <ul class="about_list_ul">
+                    <li class="about_list_li">
+                        <p class="about_list_point">Layering in everything</p>
+                    </li>
+                    <li class="about_list_li">
+                        <p class="about_list_point">Oversized fit</p>
+                    </li>
+                    <li class="about_list_li">
+                      <p class="about_list_point">Bright and acid color accents</p>  
+                    </li>
+                </ul>
+                </div>
+                <div class="about_image-wrapper">
+                    <img src="./Assets/Images/Teenager_wearing_streetwear_about.png" alt="about_image" class="about_image">
+                </div>
+            </div>
+        </section>
+        <section id="gallery" class="gallery-section section">
+            <div class="container gallery-container">
+                <div class="gallery_text">
+                    <h2 class="gallery_title">Trend Gallery</h2>
+                    <p class="gallery_description">The essential artifacts of modern urban expression. Curated for the bold.</p>
+                    </div>
+                    <div class="gallery_link-wrapper">
+                        <a href="#" class="gallery_link">View all trends <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-arrow-right-icon lucide-arrow-right"><path d="M5 12h14"/><path d="m12 5 7 7-7 7"/></svg></a>
+                    </div>
+                    
+                
+                <div class="gallery_all_images">
+                    <ul class="gallery_list">
+                        <li class="gallery_card gallery_card_№1">
+                            <img src="./Assets/Images/Large_Feature_Cargo_Pants_gallery.png" alt="gallery_image_#1" class="gallery_image gallery_image_№1">
+                            <div class="gallery_card-overlay">
+                                <span class="card-overlay_tag">01/Archive</span>
+                                <div>
+                                    <span class="card-overlay_lineup">essential</span>
+                                    <h3 class="card-overlay_name">Cargo Pants</h3>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="gallery_card gallery_card_№2">
+                            <img src="./Assets/Images/Chunky_Sneakers_gallery.png" alt="gallery_image_#2" class="gallery_image gallery_image_№2">
+                            <div class="gallery_card-overlay">
+                                <span class="card-overlay_tag">01/Footwear</span>
+                                <div>
+                                    <span class="card-overlay_lineup">essential</span>
+                                    <h3 class="card-overlay_name">Chunky Sneakers</h3>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="gallery_card gallery_card_№3">
+                            <img src="./Assets/Images/Hoodies_gallery.png" alt="gallery_image_#3" class="gallery_image gallery_image_№3">
+                            <div class="gallery_card-overlay">
+                                <span class="card-overlay_tag">01/Outerwear</span>
+                                <div>
+                                    <span class="card-overlay_lineup">essential</span>
+                                    <h3 class="card-overlay_name">Hoodie</h3>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="gallery_card gallery_card_№4">
+                            <img src="./Assets/Images/Tech_Accessories_gallery.png" alt="gallery_image_#4" class="gallery_image gallery_image_№4">
+                            <div class="gallery_card-overlay">
+                                <span class="card-overlay_tag">01/Accessories</span>
+                                <div>
+                                    <span class="card-overlay_lineup">essential</span>
+                                    <h3 class="card-overlay_name">Tech Accessories</h3>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <section id="history" class="history-section section">
+            <div class="container history-container">
+                <div class="history_text-wrapper">
+                    <h2 class="history_title">Evolution of Style</h2>
+                    <p class="history_subtitle">How the urban landscape transformed from the analog 90s to the digital future.</p>
+                </div>
+                <div class="history_table">
+                    <div class="history_table_head_line">
+                        <div class="history_table_era_head-text-wrapper"><p class="history_table_head-text">Era</p></div> 
+                        <div class="history_table_key_head-text-wrapper"><p class="history_table_head-text">Key Silhouette</p></div>
+                        <div class="history_table_vibe_head-text-wrapper"><p class="history_table_head-text">Vibe</p></div> 
+                        <div class="history_table_status_head-text-wrapper"><p class="history_table_head-text">Solarium Status</p></div> 
+                    </div>
+                    <div class="history_table_line">
+                        <div class="history_table_era-text-wrapper"><p class="history_table_era-text">Late 90s</p></div> 
+                        <div class="history_table_key-text-wrapper"><p class="history_table_text">Wide-leg cargo & utility vests</p></div>  
+                        <div class="history_table_vibe-text-wrapper"><p class="history_table_text">Industrial minimalism</p></div>  
+                        <div class="history_table_status-text-wrapper"><p class="history_table_special-text archived">Archived</p></div> 
+                    </div>
+                    <div class="history_table_line">
+                        <div class="history_table_era-text-wrapper"><p class="history_table_era-text">Y2K Era</p></div>
+                        <div class="history_table_key-text-wrapper"><p class="history_table_text">Metallic fabrics & chunky tech</p></div>
+                        <div class="history_table_vibe-text-wrapper"><p class="history_table_text">Cyber-optimism</p></div>
+                        <div class="history_table_status-text-wrapper"><p class="history_table_special-text trending">Trending now</p></div>
+                    </div>
+                    <div class="history_table_line">
+                        <div class="history_table_era-text-wrapper"><p class="history_table_era-text">Late 2010s</p></div> 
+                        <div class="history_table_key-text-wrapper"><p class="history_table_text">Slim technical joggers</p></div> 
+                        <div class="history_table_vibe-text-wrapper"><p class="history_table_text">Athleisure dominance</p></div> 
+                        <div class="history_table_status-text-wrapper"><p class="history_table_special-text vaulted">Vaulted</p></div> 
+                    </div>
+                    <div class="history_table_line">
+                        <div class="history_table_era-text-wrapper"><p class="history_table_era-text">2024+</p></div> 
+                        <div class="history_table_key-text-wrapper"><p class="history_table_text">Extreme baggy & organic textures</p></div>  
+                        <div class="history_table_vibe-text-wrapper"><p class="history_table_text">Neo-solarium warmth</p></div> 
+                        <div class="history_table_status-text-wrapper"><p class="history_table_special-text emerging">Emerging</p></div> 
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section id="community" class="community-section section">
+            <div class="container community-container">
+                <div class="community_left_side">
+                <div class="community_text">
+                    <h2 class="community_title">Join the Movement</h2>
+                    <p class="community_description">Sign up to receive early access to archive drops, community lookbooks, and sun-drenched style guides.</p>
+                    </div>
+                    <div class="community_members-wrapper">
+                        <div class="community_img_members-wrapper">
+                            <ul class="community_img_members-ul">
+                                <li class="community_img_members-li"><img src="./Assets/Images/Background_profile_1_form.jpg" alt="Profile" class="community_img_members" width="36" height="36"></li>
+                                <li class="community_img_members-li"><img src="./Assets/Images/Background_profile_2_form.jpg" alt="Profile" class="community_img_members" width="36" height="36"></li>
+                                <li class="community_img_members-li"><img src="./Assets/Images/Background_profile_3_form.jpg" alt="Profile" class="community_img_members" width="36" height="36"></li>
+                            </ul>
+                        </div>
+                        <div class="community_text_members-wrapper">
+                            <span class="community_text_members">+2,400 members</span>
+                        </div>
+                    </div>
+                    </div>
+                <div class="form-wrapper">
+                    <form class="form">
+                        <div class="form_all_fill">
+                    <div class="form_fill">
+                      <label class="form_label">Full name</label>
+                      <input type="text" name="username" class="form_input" placeholder="Alex Rivera">
+                    </div>
+                    <div class="form_fill">
+                      <label class="form_label">Email address</label>
+                      <input type="email" name="address" class="form_input" placeholder="alex@solarium.com">
+                    </div>
+                        </div>
+                    <div class="form_button-wrapper">
+                        <button class="form_button" type="submit" >Authenticate profile <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-badge-check-icon lucide-badge-check"><path d="M3.85 8.62a4 4 0 0 1 4.78-4.77 4 4 0 0 1 6.74 0 4 4 0 0 1 4.78 4.78 4 4 0 0 1 0 6.74 4 4 0 0 1-4.77 4.78 4 4 0 0 1-6.75 0 4 4 0 0 1-4.78-4.77 4 4 0 0 1 0-6.76Z"/><path d="m9 12 2 2 4-4"/></svg></button>
+                    </div>
+                    <div class="form_text-wrapper">
+                        <p class="form_text">By joining, you agree to our curator terms and lifestyle guidelines.</p>
+                    </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <section class="footer-section section">
+            <div class="container footer-container">
+                <div class="footer_logo-wrapper">
+            <span class="logo footer_logo">Solarium</span>
+                </div>
+            <div class="footer_links-wrapper">
+            <ul class="footer_links-ul">
+                <li class="footer_links-li">
+                    <a href="/" class="footer_link">Instagram</a>
+                    <img src="./Assets/Images/Instagram.png" alt="Instagram" class="footer_link_img">
+                </li>
+                <li class="footer_links-li">
+                    <a href="/" class="footer_link">Twitter</a>
+                    <img src="./Assets/Images/Twitter.png" alt="Twitter" class="footer_link_img">
+                </li>
+                <li class="footer_links-li">
+                    <a href="/" class="footer_link">TikTok</a>
+                    <img src="./Assets/Images/Tiktok.png" alt="Tiktok" class="footer_link_img">
+                </li>
+                <li class="footer_links-li">
+                    <a href="/" class="footer_link">Discord</a>
+                    <img src="./Assets/Images/Discord.png" alt="Discord" class="footer_link_img">
+                </li>
+            </ul>
+            </div>
+            <div class="footer_subscription-wrapper">
+            <p class="footer_subscription">© 2024 Solarium archive. Curated in light.</p>
+            </div>
+            </div>           
+        </section>
+    </footer>
+    <div class="modal_overlay" id="modalOverlay">
+    <div class="modal" role="dialog" id="modal">
+        <button class="modal_close" id="modalClose">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="lucide lucide-x-icon lucide-x"><path d="M18 6 6 18"/><path d="m6 6 12 12"/></svg>
+        </button>
+        <div class="modal_head">
+        <img src="./Assets/Images/Secret_drop_modal.jpg" alt="Secret drop" class="modal_head-img">
+        <span class="modal_head-tag">Limited</span>
+        </div>
+        <div class="modal_text-wrapper">
+        <span class="modal_title">Secret drops</span>
+        <p class="modal_subtitle">You've unlocked a sun-drenched 
+            exclusive reward for the new 
+            season collection.</p>
+            </div>
+            <div class="modal_discount">
+                <span class="modal_discount-number">-15%</span>
+                <span class="modal_discount-text">OFF YOUR NEXT ORDER</span>
+            </div>
+            <div class="modal_code">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                 width="24"
+                  height="24"
+                   viewBox="0 0 24 24"
+                    fill="none"
+                     stroke="currentColor"
+                      stroke-width="2"
+                       stroke-linecap="round"
+                        stroke-linejoin="round"
+                         class="modal_code-icon">
+                         <path d="M2 9a3 3 0 0 1 0 6v2a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2v-2a3 3 0 0 1 0-6V7a2 2 0 0 0-2-2H4a2 2 0 0 0-2 2Z"/><path d="M13 5v2"/><path d="M13 17v2"/><path d="M13 11v2"/>
+                        </svg>
+                GOITEENS-STYLE 
+            </div>
+            <div class="modal_copy-wrapper">
+            <button class="modal_copy">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                 width="24"
+                  height="24"
+                   viewBox="0 0 24 24"
+                    fill="none"
+                     stroke="currentColor"
+                      stroke-width="2"
+                       stroke-linecap="round"
+                        stroke-linejoin="round"
+                         class="modal_copy-icon">
+                         <rect width="14" height="14" x="8" y="8" rx="2" ry="2"/>
+                         <path d="M4 16c-1.1 0-2-.9-2-2V4c0-1.1.9-2 2-2h10c1.1 0 2 .9 2 2"/>
+                        </svg>
+                       Copy Code
+            </button>
+            <span class="modal_footer">Valid for the next 24 hours only</span>
+            </div>
+    </div>
+        </div>
+        <script src="./JavaScript/modal.js" type="module"></script>
+</body>
+</html>
