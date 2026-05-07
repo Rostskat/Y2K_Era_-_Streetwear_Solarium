@@ -7,6 +7,10 @@
 	cursor: default;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 :root {
   --bg-primary: #F6F6F6;
   --bg-secondary: #ffffff;
